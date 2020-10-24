@@ -59,7 +59,8 @@ p {
     font-size: 16px;
 }
 
-/* change hero to firgure instead of class .hero*/
+/* remove . for selector bc class is no longer specified */
+/* changed hero to figure */
 figure {
     height: 800px;
     width: 100%;
@@ -79,7 +80,7 @@ figure {
     margin-left: 25px;
 }
 
-/* change content to main instead of class .main */
+/* remove . for selector bc class is no longer specified */
 main {
     width: 75%;
     display: inline-block;
@@ -199,7 +200,7 @@ main {
     font-size: 36px;
 }
 
-/* change to id instead of .footer class */
+/* remove . for selector bc class is no longer specified */
 footer {
     padding: 30px;
     clear: both;
@@ -207,7 +208,7 @@ footer {
     text-align: center;
 }
 
-/* change to id instead of .footer class */
+/* remove . for selector bc class is no longer specified */
 footer h2 {
     font-size: 20px;
 }
