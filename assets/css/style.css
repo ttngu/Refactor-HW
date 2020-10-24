@@ -59,7 +59,7 @@ p {
     font-size: 16px;
 }
 
-/* change hero to firgure */
+/* change hero to firgure instead of class .hero*/
 figure {
     height: 800px;
     width: 100%;
@@ -79,7 +79,7 @@ figure {
     margin-left: 25px;
 }
 
-/* change content to main */
+/* change content to main instead of class .main */
 main {
     width: 75%;
     display: inline-block;
@@ -199,13 +199,15 @@ main {
     font-size: 36px;
 }
 
-.footer {
+/* change to id instead of .footer class */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* change to id instead of .footer class */
+footer h2 {
     font-size: 20px;
 }
